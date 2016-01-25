@@ -21,7 +21,13 @@ What is Blood Alcohol Concentration ?
 How is Blood Alcohol Concentration Measured ?
 ========================================================
 
-- Blood alcohol concentration is measured by dividing grams 
+- Blood alcohol concentration is measured by dividing grams of alcohol by 100 mililitres of blood
+- This is then converted to a percentage, for example 0.02 grams of alcoho per 100 grams of invidual's blood,
+```{r}
+bac<-0.02/100*100
+bac
+```
+The calculated BAC is `r bac`%.
 - Random breath testing(RBT) is carried by the Police to determined the BAC level.
 
 What will Happen ?
